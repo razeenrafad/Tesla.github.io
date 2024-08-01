@@ -1,0 +1,227 @@
+
+        <div class="img1">
+            <img src="first.jpg" alt="image" width="1425" height="830" class="img-fluid">
+        </div>
+        <div class="container-fluid">
+        <div class="row">
+         
+                
+       <div class="col">
+       </div>
+
+       <div class="col">
+    </div>
+ 
+       <div class="col-3  position-absolute top-0  pl-5 pt-3">
+        <h3 class="column-header">TESLA</h3>
+       </div>
+       
+        <div class="nav2">
+        <nav class="navbar navbar-expand-xl pl-5 pt-0" >
+            <div class="menu">
+        <button class="navbar-toggler d-xl-none mx-auto btn btn-grey btn-sm text-dark" type="button" id="menu1" data-toggle="collapse">Menu</button> </div>
+       <div class="collapse navbar-collapse" id="navbarnav"> 
+        <ul  class="navbar-nav mx-auto">
+            <li class="nav-item active"><a class="navbar-brand text-dark" href="vehicles">Vehicles</a></li>
+            <li><a class="navbar-brand text-dark" href="Energy">Energy</a></li>
+            <li><a class="navbar-brand text-dark" href="Charging">Charging</a></li>
+            <li><a class="navbar-brand text-dark" href="Discover">Discover</a></li>
+            <li><a class="navbar-brand text-dark" href="Shop">Shop</a></li>
+        </ul>
+         
+       
+       
+        <ul>
+            <li><a class="navbar-brand text-dark" href="customer and product service"><i class="bi bi-question-circle"></i></a></li>
+            <li><a class="navbar-brand text-dark" href="globe"><i class="bi bi-globe"></i></a></li>
+            <li><a class="navbar-brand text-dark" href="account"><i class="bi bi-person-fill-add"></i></a></li>
+        </ul>
+        </div>
+        
+       </nav>
+       </div>
+       <div class="row row-2">
+        <div class="col"></div>
+        <div class="col"><h3>Model 3</h3></div>
+        <div></div>
+       </div>
+       </div>
+     
+
+       <div class="row row-3">
+        <div class="col"><p>From $34,9901</p></div>
+        <div></div>
+       </div>
+       </div>
+
+
+
+
+
+
+
+
+    CSSS
+
+
+
+    body
+{
+    height:500vh;
+}
+
+/*SECTION-1*/
+
+.img-fluid {
+    height: 800px; /* Set your desired fixed height */
+    width: 100%; /* Make width responsive */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+@media all ()
+{
+    .img1
+    {
+        height:100%;
+    }
+}
+.nav1
+{
+    position:absolute;
+    right:30px;
+    top:15px;
+    
+    text-align: center;
+}
+
+.nav1 ul 
+{
+    text-align: center;
+    
+}
+.nav1 li 
+{
+   list-style-type:none;
+   display: inline-block;
+   padding-right:15px;
+}
+.nav1 li a
+{
+    width:50px;
+}
+.nav2
+{
+    position:absolute;
+    right:0px;
+    top:1px;
+    text-align: center;
+}
+.nav2 li a
+{
+    font-family:Universal Sans Text,-apple-system, Arial, sans-serif;
+    font-weight:400;
+    font-size:15px;
+}
+
+.menu{
+    position:absolute;
+    top: 0px;
+    right:0px;
+}
+
+.mh
+{
+    position:absolute;
+    top:15px;
+    left:20px;
+}
+
+
+
+        
+.row-2
+{
+    position:absolute;
+    top:150px;
+    left:0px;
+    font-family:-apple-system, Arial, sans-serif;
+    font-size:40px;
+    font-weight:550;
+}
+.row-2 h3
+{
+    font-family:-apple-system, Arial, sans-serif;
+    font-size:40px;
+    font-weight:550;
+}
+    
+    
+
+.row-3
+{
+    position:absolute;
+    justify-content:center;
+    top:220px;
+    right:580px;
+    font-family:-apple-system, Arial, sans-serif;
+    font-size:20px;
+     font-weight:550;
+}
+    /*
+.p1
+{
+    position:absolute;
+    font-family:-apple-system, Arial, sans-serif;
+    top:193px;
+    right:520px;
+    font-size:23px;
+    font-weight:500;
+}
+.p2
+{
+    position:absolute;
+    font-family:-apple-system, Arial, sans-serif;
+    top:225px;
+    right:540px;
+    font-size:23px;
+    font-weight:500;
+    text-decoration:underline;
+}
+
+.bt1
+{
+    background-color:#f8f9fa;
+    position:absolute;
+    font-family:-apple-system, Arial, sans-serif;
+    top:655px;
+    right:730px;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top:7px;
+    padding-bottom:7px;
+    border:none;
+    border-radius:5px;
+   
+}
+
+.bt2
+{
+    background-color:black;
+    position:absolute;
+    font-family:-apple-system, Arial, sans-serif;
+    top:655px;
+    right:440px;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius:5px;
+    color: #f8f9fa;*/
+
+   
+}
+.bt2:hover
+{
+    background-color:#333333;
+}
+
